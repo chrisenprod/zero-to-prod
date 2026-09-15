@@ -6,6 +6,61 @@ Documento de requisitos del producto: define qué debe hacer la primera versión
 **Última actualización:** [Fecha].
 **Contexto:** [Concepto, avatar y propuesta de valor](concepto.md).
 
+## Cómo construir este documento
+
+**Pregunta que responde:** ¿Qué debe hacer la primera versión y cómo sabremos que funciona?
+
+**Antes de empezar:** lee [concepto.md](concepto.md), revisa lo que ya existe del
+producto y acuerda cuánto puedes construir en esta primera iteración.
+
+1. Elige un resultado útil del concepto y conviértelo en un primer flujo completo:
+   desde la acción inicial del usuario hasta el resultado que recibe.
+2. Define qué incluye esa versión y qué queda fuera. Describe también el papel de
+   la landing y su acción principal.
+3. Escribe criterios observables. Por ejemplo, «al recargar sigue viendo el dato
+   guardado» permite comprobar una entrega; «funciona bien» no basta.
+4. Aclara datos, validaciones, acceso, errores y estados vacíos según el flujo.
+5. Acuerda las decisiones técnicas necesarias. Si una pieza no hace falta, indícalo;
+   si falta una decisión, registra qué bloquea en lugar de inventarla.
+6. Revisa el alcance con el dueño del proyecto. Después enlaza los cambios OpenSpec
+   que desarrollen cada capacidad; no necesitas crearlos para redactar este PRD.
+
+### Co-crearlo en conversación
+
+Sigue el proceso interactivo del [README](README.md) y parte del concepto ya
+trabajado. Explica PRD como «lo que debe hacer la primera versión».
+
+- **Resultado:** ¿Qué única tarea debería poder completar el primer usuario?
+- **Recorrido:** ¿Dónde empieza, qué hace y qué debería obtener al terminar?
+- **Límites:** ¿Qué es indispensable y qué podemos dejar para después?
+- **Reglas:** ¿Qué datos necesita? ¿Qué debería pasar si falta algo o hay un error?
+  ¿Quién puede consultar o modificar la información, si corresponde?
+- **Comprobación:** ¿Qué tendríamos que observar para decir que funciona?
+
+Haz de una a tres preguntas por turno; utiliza las respuestas para proponer el
+siguiente bloque. Ayuda a reducir el alcance cuando sea necesario y explica las
+opciones técnicas en función del flujo. No exijas al usuario conocer el stack.
+Al cerrar, revisa flujo, exclusiones y aceptación con él antes de pasar al roadmap.
+Conserva las decisiones sin resolver en «Preguntas abiertas».
+
+**Encargo para tu agente:**
+
+> Lee concepto.md y el estado actual del proyecto. Ayúdame a completar prd.md para
+> una primera versión pequeña y útil. Pregunta por las decisiones que cambien el
+> comportamiento del producto. Propón un flujo, sus límites y criterios observables,
+> incluidos los errores relevantes. Mantén las incertidumbres explícitas y presenta
+> el alcance para revisión antes de implementar.
+
+**Listo para continuar cuando:** otra persona entiende el primer flujo, sus reglas,
+lo que queda fuera y cómo comprobarlo. Las decisiones que bloqueen el primer cambio
+están resueltas; las de entregas posteriores pueden seguir identificadas como pendientes.
+
+**Cuándo actualizarlo:** cuando cambie el comportamiento o alcance acordado.
+El orden, las fechas y el avance van en [roadmap.md](roadmap.md). El diseño detallado,
+los escenarios y las tareas de cada cambio se desarrollan en OpenSpec.
+
+Los campos siguientes definen tu producto; los ejemplos de esta guía no son requisitos.
+
 ## 1. Objetivo de la primera versión
 
 > Al finalizar, **[usuario]** podrá **[acción concreta]** para conseguir **[resultado útil]**.
