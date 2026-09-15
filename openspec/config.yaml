@@ -1,0 +1,23 @@
+schema: spec-driven
+
+context: |
+  Reserva Simple es un ejemplo ficticio del bootcamp De 0 a Producción con IA.
+  Lee concepto.md, prd.md y roadmap.md desde la raíz del proyecto antes de planificar.
+  concepto.md contiene avatar, propuesta e hipótesis; prd.md define el alcance.
+  roadmap.md registra entregas; las tareas detalladas viven en cada cambio.
+  landing/ usa HTML y CSS. app/ usará React, Vite, TypeScript, Express y SQLite con Drizzle.
+  La app inicial es local y usa datos ficticios. Todavía no hay implementación.
+  Conserva separados los cambios de landing y app; pueden avanzar en paralelo.
+  No inventes evidencia, clientes, testimonios ni resultados de validación.
+
+rules:
+  proposal:
+    - Identifica el objetivo del PRD, las carpetas afectadas y las exclusiones.
+  specs:
+    - Conserva los encabezados Requirement y Scenario y las palabras SHALL, WHEN y THEN.
+    - Redacta el contenido en español con escenarios observables de éxito y error.
+  design:
+    - Usa el stack acordado y documenta decisiones pendientes.
+  tasks:
+    - Incluye implementación y comprobación de los escenarios.
+    - Marca tareas completadas solo con evidencia; no dupliques el roadmap.
