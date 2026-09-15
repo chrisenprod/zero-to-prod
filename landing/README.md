@@ -1,9 +1,11 @@
 # Landing
 
-Aquí se construirán `index.html`, `styles.css` y `assets/`. No hay código todavía.
+Carpeta para construir la web pública del proyecto. Todavía no hay código.
 
-Mensaje y avatar: [concepto](../concepto.md).
-Plan: [publicar landing](../openspec/changes/publicar-landing/proposal.md).
+- Mensaje, avatar y propuesta: [concepto](../concepto.md).
+- Alcance y acción esperada: [PRD](../prd.md).
+- Entregas y seguimiento: [roadmap](../roadmap.md).
 
-Se puede avanzar mientras comienza la app. Al preparar la publicación, usar el
-número real de WhatsApp autorizado del proyecto.
+Después de elegir la tecnología e implementar, documenta aquí los comandos
+comprobados para abrir la landing localmente y el procedimiento de publicación.
+La landing puede avanzar en paralelo con la aplicación.

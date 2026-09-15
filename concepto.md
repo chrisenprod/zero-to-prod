@@ -1,61 +1,53 @@
-# Concepto · Reserva Simple
+# Concepto · [Nombre del proyecto]
 
-Estado: ejemplo ficticio; hipótesis pendientes de validar.
+**Estado:** [Borrador / revisado / actualizado con evidencia].
+**Última actualización:** [Fecha].
 
 ## 1. Resumen del proyecto
 
-Una herramienta para que profesionales independientes registren y consulten las
-reservas que acuerdan con sus clientes por WhatsApp.
+[Qué estás creando, para quién y qué resultado busca conseguir, en dos o tres frases.]
 
 ## 2. Avatar / cliente ideal
 
-- **Quién es:** profesional independiente que presta servicios por hora, por ejemplo una profesora particular.
-- **Situación:** coordina citas personalmente, sin un equipo administrativo.
-- **Qué quiere conseguir:** saber qué compromisos tiene y recuperar sus detalles.
-- **Problema:** la información queda repartida entre conversaciones y apuntes.
-- **Cómo lo resuelve hoy:** revisa WhatsApp y anota citas en una libreta o calendario.
-- **Obstáculos para adoptar o pagar:** trabajo extra, utilidad incierta y posibilidad de resolverlo con su calendario actual.
-
-Este perfil es una hipótesis de uso; no representa clientes entrevistados.
+- **Quién es:** [Persona o tipo de negocio al que quieres ayudar].
+- **Situación actual:** [Contexto en el que aparece la necesidad].
+- **Qué quiere conseguir:** [Resultado concreto].
+- **Qué problema o dificultad tiene:** [Qué le impide conseguirlo hoy].
+- **Cómo lo resuelve hoy:** [Herramientas, procesos o alternativas que utiliza].
+- **Qué le impide adoptar o pagar por una solución:** [Dudas, esfuerzo, coste u otras barreras].
+- **Quién usa y quién paga:** [Indicar si son la misma persona].
 
 ## 3. Problema principal
 
-Después de acordar una cita, el profesional necesita guardarla en un lugar donde
-encuentre cliente, servicio, fecha y hora sin volver a buscar la conversación.
+[Describe una situación concreta: cuándo ocurre, qué intenta hacer la persona,
+qué se lo dificulta y qué consecuencia tiene. Distingue lo observado de lo supuesto.]
 
 ## 4. Propuesta de valor
 
-Ayudamos a profesionales independientes a mantener sus reservas organizadas mediante
-un registro simple de las citas acordadas, reduciendo la necesidad de buscar sus
-detalles en conversaciones dispersas.
+> Ayudamos a **[cliente ideal]** a conseguir **[resultado]** mediante
+> **[solución]**, reduciendo **[dificultad principal]**.
 
-**Mensaje inicial de la landing:** «Tus reservas, en un solo lugar».
-
-**Apoyo:** «Estamos creando una herramienta para registrar y consultar las citas
-que acuerdas con tus clientes. Cuéntanos cómo organizas las tuyas».
-
-**Acción:** «Hablar por WhatsApp». Presentamos un proyecto en desarrollo;
-no prometemos acceso inmediato a una aplicación terminada.
+- **Mensaje principal de la landing:** [Promesa clara y comprobable].
+- **Explicación breve:** [Cómo ayuda la solución y cuál es su estado actual].
+- **Acción principal:** [Qué quieres que haga el visitante].
 
 ## 5. Solución propuesta
 
-- Landing para explicar el proyecto e iniciar conversaciones con posibles usuarios.
-- App donde el profesional registra manualmente una reserva y consulta su lista.
-- El primer flujo y sus límites están en el [PRD](prd.md).
+[Describe cómo resolverías el problema y qué papel cumplen la landing y la app.]
 
-## 6. Diferenciación frente a alternativas
+El alcance de la primera versión se define en el [PRD](prd.md).
 
-Hipótesis: un registro centrado en cliente, servicio y cita puede resultar más
-práctico que combinar conversaciones y notas. Hay que contrastarlo con un calendario
-existente; todavía no sabemos si esta solución será preferida o pagable.
+## 6. Diferenciación frente a las alternativas
+
+- **Alternativas actuales:** [Incluye hacer el trabajo manualmente o no resolverlo].
+- **Por qué podrían elegir esta solución:** [Ventaja relevante para este usuario].
+- **Qué respalda esa diferencia:** [Evidencia disponible o hipótesis por contrastar].
 
 ## 7. Hipótesis por validar y evidencia
 
-| Hipótesis | Cómo contrastarla | Evidencia disponible |
-|---|---|---|
-| Recuperar los detalles de una cita es un problema frecuente. | Pedir ejemplos recientes a profesionales del perfil. | Ninguna; pendiente. |
-| Registrar una cita manualmente aporta utilidad. | Observar cómo completan el flujo y qué dificultad encuentran. | Ninguna; pendiente. |
-| La propuesta de la landing se entiende. | Pedir que expliquen qué ofrece y qué harían después. | Ninguna; pendiente. |
+| Hipótesis | Cómo la contrastaremos | Evidencia y fecha | Qué aprendimos |
+|---|---|---|---|
+| [Supuesto sobre usuario, problema o solución] | [Conversación, observación o prueba] | [Pendiente o fuente real] | [Aprendizaje] |
 
-Registrar fecha, fuente y aprendizaje al obtener evidencia. Las conversaciones
-las coordina el participante; este ejemplo no implica contactos realizados.
+No presentes una hipótesis como un hecho. Actualiza este documento cuando obtengas
+nueva evidencia; registra entregas y próximos pasos en el [roadmap](roadmap.md).

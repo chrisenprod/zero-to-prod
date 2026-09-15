@@ -1,23 +1,26 @@
 schema: spec-driven
 
 context: |
-  Reserva Simple es un ejemplo ficticio del bootcamp De 0 a Producción con IA.
+  Plantilla para comenzar un proyecto desde cero en el bootcamp De 0 a Producción con IA.
   Lee concepto.md, prd.md y roadmap.md desde la raíz del proyecto antes de planificar.
-  concepto.md contiene avatar, propuesta e hipótesis; prd.md define el alcance.
-  roadmap.md registra entregas; las tareas detalladas viven en cada cambio.
-  landing/ usa HTML y CSS. app/ usará React, Vite, TypeScript, Express y SQLite con Drizzle.
-  La app inicial es local y usa datos ficticios. Todavía no hay implementación.
-  Conserva separados los cambios de landing y app; pueden avanzar en paralelo.
+  concepto.md contiene avatar, problema, propuesta de valor e hipótesis.
+  prd.md define alcance, primer flujo, reglas y decisiones técnicas.
+  roadmap.md es el único seguimiento de entregas; las tareas detalladas viven en cada cambio.
+  landing/ contendrá la web pública y app/ la aplicación. Pueden avanzar en paralelo.
+  La plantilla no elige producto ni stack y no contiene código ni cambios implementados.
+  Los campos entre corchetes están pendientes; no los trates como decisiones confirmadas.
   No inventes evidencia, clientes, testimonios ni resultados de validación.
+  Actualiza este contexto con los datos acordados cuando adaptes la plantilla.
 
 rules:
   proposal:
-    - Identifica el objetivo del PRD, las carpetas afectadas y las exclusiones.
+    - Relaciona el cambio con el PRD e identifica carpetas afectadas y exclusiones.
+    - Explicita las decisiones pendientes que impidan concretar el alcance.
   specs:
     - Conserva los encabezados Requirement y Scenario y las palabras SHALL, WHEN y THEN.
-    - Redacta el contenido en español con escenarios observables de éxito y error.
+    - Redacta el contenido en español con escenarios observables de éxito y error cuando apliquen.
   design:
-    - Usa el stack acordado y documenta decisiones pendientes.
+    - Usa las decisiones técnicas acordadas en el PRD; no inventes un stack si sigue pendiente.
   tasks:
     - Incluye implementación y comprobación de los escenarios.
     - Marca tareas completadas solo con evidencia; no dupliques el roadmap.

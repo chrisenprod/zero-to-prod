@@ -1,52 +1,66 @@
-# PRD · Reserva Simple
+# PRD · [Nombre del proyecto]
 
-Estado: alcance didáctico propuesto, sin implementación.
-Contexto de usuario y propuesta: [concepto](concepto.md).
+Documento de requisitos del producto: define qué debe hacer la primera versión.
 
-## Objetivo de la primera versión
+**Estado:** [Borrador / alcance acordado / en revisión].
+**Última actualización:** [Fecha].
+**Contexto:** [Concepto, avatar y propuesta de valor](concepto.md).
 
-Un profesional registra una reserva y la encuentra después de recargar la app.
-La primera iteración de la app funciona localmente con datos ficticios.
+## 1. Objetivo de la primera versión
 
-## Flujo principal
+> Al finalizar, **[usuario]** podrá **[acción concreta]** para conseguir **[resultado útil]**.
 
-1. Abrir la aplicación y consultar la lista.
-2. Completar cliente, servicio, fecha y hora.
-3. Guardar; si un dato falta o es inválido, corregirlo con ayuda del mensaje.
-4. Ver la reserva y recuperarla al recargar.
+## 2. Primer flujo útil
 
-## Alcance y aceptación
+1. [Dónde empieza el usuario y qué necesita para entrar].
+2. [Qué información introduce o qué acción realiza].
+3. [Qué valida y hace el sistema].
+4. [Qué resultado recibe y cómo lo vuelve a consultar, si corresponde].
 
-| Frente | Incluye | Estará listo cuando |
+## 3. Alcance y criterios de aceptación
+
+| Frente | Qué incluye | Cómo comprobaremos que está listo |
 |---|---|---|
-| Landing | Propuesta, estado del proyecto y enlace a WhatsApp. | URL HTTPS usable en móvil y botón que abre el contacto acordado. |
-| App | Alta manual y lista de reservas persistentes. | Guarda un registro válido, lo recupera al recargar y rechaza entradas inválidas. |
+| Landing | [Mensaje, contenido y acción principal] | [Resultado observable desde la web pública] |
+| App / MVP | [Primer flujo completo y funciones imprescindibles] | [Acción del usuario y resultado esperado] |
 
-### Datos mínimos
+### Fuera de esta primera versión
 
-Cliente y servicio (texto obligatorio), fecha y hora válidas. El sistema genera un
-identificador. Se usa una única zona horaria acordada con el mentor, visible en
-pantalla; no se convierte entre zonas ni se comprueba disponibilidad.
+- [Función o integración que dejaremos para después].
+- [Límite acordado para mantener la entrega realizable].
 
-### Fuera de la primera iteración
+## 4. Datos y reglas principales
 
-Pagos, mensajes automáticos, API de WhatsApp, calendario externo, edición,
-cancelación, comprobación de solapamientos y acceso de múltiples usuarios.
-La reserva registra un acuerdo previo; no confirma disponibilidad automáticamente.
+- **Información necesaria:** [Campos mínimos y su propósito].
+- **Validaciones:** [Qué entradas se aceptan y cuáles se rechazan].
+- **Persistencia:** [Qué debe guardarse y recuperarse después].
+- **Acceso:** [Quién puede ver o modificar cada dato, cuando corresponda].
+- **Errores y estados vacíos:** [Qué verá el usuario si falta información o algo falla].
 
-## Decisiones técnicas del ejemplo
+## 5. Decisiones técnicas
 
-- Landing independiente: HTML + CSS y assets locales.
-- App: React + Vite + TypeScript, Node.js + Express y SQLite con Drizzle.
-- SQLite es la elección para este ejemplo local; no implementamos dos motores.
-- Landing pública: VPS + Nginx + dominio y HTTPS.
-- App local: antes de exponer reservas reales o desplegar para clientes, definir
-  autenticación, autorización y operación de los datos.
+Completar con el mentor antes de implementar; no hay stack seleccionado por esta plantilla.
 
-## Cambios de implementación
+| Pieza | Decisión | Motivo / pendiente |
+|---|---|---|
+| Landing | [Tecnología] | [Motivo] |
+| Interfaz de la app | [Tecnología] | [Motivo] |
+| Backend | [Tecnología o no requerido] | [Motivo] |
+| Datos | [Motor o no requerido] | [Motivo] |
+| Entorno inicial | [Local / otro] | [Condiciones para probar] |
+| Publicación | [Destino previsto] | [Acceso y decisiones pendientes] |
 
-- [Publicar landing](openspec/changes/publicar-landing/proposal.md).
-- [Registrar reserva](openspec/changes/registrar-reserva/proposal.md).
+## 6. Cambios de implementación
 
-Los escenarios detallados y tareas viven en esos cambios. Fechas y avances están
-en el [roadmap](roadmap.md).
+Después de acordar el alcance, crea cada cambio concreto en `openspec/changes/`
+y registra su enlace aquí. Sus especificaciones desarrollan los escenarios detallados.
+
+| Cambio | Qué parte del alcance implementa | Enlace OpenSpec |
+|---|---|---|
+| [Nombre del primer cambio] | [Flujo o capacidad] | Pendiente de crear |
+
+## 7. Preguntas abiertas
+
+- [Decisión que falta, quién la resuelve y qué parte bloquea].
+
+Entregas, fechas y avances: [roadmap](roadmap.md).

@@ -1,9 +1,10 @@
-# App
+# App / MVP
 
-Aquí se construirá la aplicación. No hay código ni dependencias instaladas todavía.
+Carpeta para construir la aplicación del proyecto. Todavía no hay código ni
+dependencias instaladas.
 
-Alcance y stack: [PRD](../prd.md).
-Primer flujo: [registrar reserva](../openspec/changes/registrar-reserva/proposal.md).
+- Primer flujo, límites y decisiones técnicas: [PRD](../prd.md).
+- Entregas y seguimiento: [roadmap](../roadmap.md).
 
-Después de implementar, documentar los comandos comprobados de instalación,
-desarrollo y pruebas. La primera versión será local y usará datos ficticios.
+Después de implementar, documenta aquí los comandos comprobados de instalación,
+desarrollo y pruebas. Los cambios OpenSpec se gestionan desde la raíz del proyecto.
